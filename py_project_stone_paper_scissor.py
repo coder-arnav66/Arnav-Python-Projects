@@ -5,16 +5,16 @@ while True:
     import random
 
     comp = random.choice([1, 2 ,3])
-    youstr = input("enter your choice(stone/paper/scissor): ")
+    youstr = input("enter your choice(stone/paper/scissor): ")                                                   #taking the choice as a input from user
     youdict = {
                 "stone" : 1,
             "paper" : 2,
-                "scissor" : 3
+                "scissor" : 3                                                                                    #converting choice into integers for ease
     }
     you = youdict[youstr]
 
     if(you == comp):
-        print("computer chose the same, \n draw")
+        print("computer chose the same, \n draw")                                                               #conclusion
     else:
         if(comp == 1 and you == 2):
             print("computer chose stone\nyou win ")
