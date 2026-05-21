@@ -7,7 +7,7 @@ toss = input("heads/tails?: ")
 result = random.choice(["heads", "tails"])
 if(toss == result):
     print("You won the toss!")
-    choice = input("batting or bowling?: ")
+    choice = input("batting or bowling?: ")                                             #toss
 else:
     print("You've lost the toss")
     choice = random.choice(["batting", "bowling"])
@@ -28,8 +28,8 @@ if(choice == "batting"):
         else:
             print("Invalid input detected. Kindly enter a value between 1-6.")
             continue
-    print(f"Your score is {u_score}.Now computer is batting")
-    while True:
+    print(f"Your score is {u_score}.Now computer is batting")                        #match if user bats
+    while True: 
         run = int(input("Run: "))
         c = random.randint(1, 6)
         if(run>=1 and run<=6):
@@ -46,7 +46,7 @@ if(choice == "batting"):
     if(c_score > u_score):
         print("Computer Won!")
     elif(u_score > c_score):
-        print("You won!")
+        print("You won!")                                                           #results
     elif(u_score == c_score):
         print("Its a draw!")
 
@@ -65,7 +65,7 @@ if(choice == "bowling"):
                 print("Computer is out!")
                 break
         else:
-            print("Invalid input detected. Kindly enter a value between 1-6.")
+            print("Invalid input detected. Kindly enter a value between 1-6.")     #match if user bowls first
             continue
     print(f"Computer's score is {c_score}.Now, you will bat.")
     while True:
@@ -85,6 +85,6 @@ if(choice == "bowling"):
     if(c_score > u_score):
         print("Computer Won!")
     elif(u_score > c_score):
-        print("You won!")
+        print("You won!")                                                            #result for second condition
     elif(u_score == c_score):
         print("Its a draw!")
