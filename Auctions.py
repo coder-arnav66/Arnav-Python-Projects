@@ -2,7 +2,7 @@ import webbrowser
 import random
 import time
 print("Welcome to Auctions created by Arnav Saket.\nDifferent types of Players,\nPut them in Your team before the computer.\nYour team will be judged by internet.\nOn google, click on ai mode to know answer.")
-gk= [
+gk= [                                                                                #famous keepers around the world
     "Buffon",
     "Casillas",
     "Neuer",
@@ -60,7 +60,7 @@ cb = [
     "Baresi",
     "Cannavaro",
     "Hierro",
-    "Koeman",
+    "Koeman",                                                                      #famous defenders around the world
     "Puyol",
     "Ramos",
     "Terry",
@@ -220,7 +220,7 @@ cm = [
     "Busquets", "Casemiro", "Kante", "De Bruyne", "Vieira",
     "Keane", "Gattuso", "Essien", "Falcao", "Redondo",
     "Makelele", "Toure", "Fabregas", "Ozil", "Pjanic",
-    "Veron", "Deco", "Xhaka", "Thiago", "Arthur",
+    "Veron", "Deco", "Xhaka", "Thiago", "Arthur",                                        #famous midfielders around the world
     "Milner", "Henderson", "Pogba", "Matic", "Fernandinho",
     "Gundogan", "Mount", "Pedri", "Gavi", "Valverde",
     "Locatelli", "Tonali", "Bellingham", "Rice", "Phillips",
@@ -231,7 +231,7 @@ lw = [
     "Giggs", "Overmars", "Nedved", "Ronaldinho", "Ribery",
     "Hazard", "Salah", "Mane", "Neymar", "Mbappe",
     "Di Maria", "Zola", "Stoichkov", "Kostic", "Perisic",
-    "Insigne", "Sané", "Grealish", "Rashford", "Vinicius",
+    "Insigne", "Sané", "Grealish", "Rashford", "Vinicius",                                #famous wingers around the world
     "Martial", "Pires", "Pedro", "Willian", "Trossard",
     "Chiesa", "Gakpo", "Barnes", "Kvaratskhelia", "Son"
 ]
@@ -249,7 +249,7 @@ st = [
     "Pele", "Maradona", "R9", "Cristiano", "Eusebio",
     "Van Basten", "Shevchenko", "Henry", "Drogba", "Lewandowski",
     "Suarez", "Benzema", "Kane", "Haaland", "Rooney",
-    "Villa", "Torres", "Aguero", "Tevez", "Batistuta",
+    "Villa", "Torres", "Aguero", "Tevez", "Batistuta",                                   #famous strikers around the world
     "Klose", "Inzaghi", "Del Piero", "Trezeguet", "Vieri",
     "Rivaldo", "Stoichkov", "Romario", "Baggio", "Lineker",
     "Klinsmann", "Papin", "Weah", "Sanchez", "Hugo",
@@ -263,7 +263,7 @@ ucb = []
 urb = []
 ulb = []
 ucm = []
-ulw = []
+ulw = []                                                                               #empty lists
 urw = []
 ust = []
 
@@ -278,7 +278,7 @@ crw = []
 cst = []
 
 
-def auction(pos, plist, u_t, c_t):
+def auction(pos, plist, u_t, c_t):                                                     #defining the game
     for i in range(5):
         player = random.choice(plist)
         print("You have 5 chance. choose or play without them.")
@@ -299,7 +299,7 @@ auction("goalkeeper", gk, ugk, cgk)
 auction("center back", cb, ucb, ccb)
 auction("center back#2", cb, ucb, ccb)
 auction("left back", lb, ulb, clb)
-auction("right back", rb, urb, crb)
+auction("right back", rb, urb, crb)                                                 #function call with different parameters
 auction("center midfielder", cm, ucm, ccm)
 auction("center midfielder#2", cm, ucm, ccm)
 auction("left wing", lw, ulw, clw)
@@ -311,11 +311,11 @@ ct = cgk + ccb+crb+clb+ccm+clw+crw+cst
 ut = ugk + ucb + urb + ulb + ucm + ulw + urw + ust
 
 print("Your team:", ut)
-print("Computer's team", ct)
+print("Computer's team", ct)                                                       #team overview
 print("Internet searching process starting...")
 time.sleep(10)
 
 webbrowser.open(f"https://www.google.com/search?q=me+and+my+friend+were+playing+auctions+and+my+team+is+{ut}+and+my+friend's+team+is+{ct}+based+on+the+team+tell+who+won+in+brief")
-
+                                                                                   #result using webbrowser
 
 
