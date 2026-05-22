@@ -13,7 +13,8 @@ Each project is small, easy to run, and designed to teach programming concepts w
 - **water_remainder.py** → Stay hydrated with water reminders 💧
 - **clear_your_confusion.py** → A helper script for clarifying concepts 📘
 - **data.py** → Supporting data file for projects 📊
-- **auctions.py** - Play football auction against computer with results⚽🥅
+- **auctions.py** → Play football auction against computer with results⚽🥅
+- **guess_the_price.py** → Guess the price of everyday and costly items — closest guess wins!🎮💰💵
 
 ---
 
