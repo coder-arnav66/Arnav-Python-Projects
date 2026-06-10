@@ -19,6 +19,7 @@ Each project is small, easy to run, and designed to learn programming concepts w
 - **cheater_chatbox.py** → Talk with ai with high efficiency📢🤖⚡
 - **talking_thing.py** → Play convo related games with different modes🗣️💬⚡
 - **ai_clash.py** → Ask something and get answers from three different ai models🤖📄📄
+- **ultimate_city_game.py** → Chose different occupations and fight with monsters to collect the most number of coins and get a appreciation certificate after playing🪙🏙️📄
 
 ---
 
