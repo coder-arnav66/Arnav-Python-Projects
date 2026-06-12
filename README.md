@@ -62,6 +62,6 @@ python hand_cricket.py
 
 
 ---
-
 ## 📺 Project Demo Video
-<video src="project1.mp4" width="100%" controls></video>
+
+[▶️ Click here to watch the Project Demo Video](project1.mp4)
