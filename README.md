@@ -6,6 +6,9 @@ Welcome to **Arnav-Python-Projects** — a collection of fun and beginner-friend
 Each project is small, easy to run, and designed to learn programming concepts while being enjoyable to use.
 
 ---
+## 📺 Project Demo Video
+
+<video src="https://github.com/user-attachments/assets/478efde1-88e6-44a2-9fb0-9b9be6d9bf10" width="100%" controls></video>
 
 ## 📂 Projects Included
 - **hand_cricket.py** → Play hand cricket against the computer 🏏
@@ -62,6 +65,3 @@ python hand_cricket.py
 
 
 ---
-## 📺 Project Demo Video
-
-(https://github.com/user-attachments/assets/478efde1-88e6-44a2-9fb0-9b9be6d9bf10)
