@@ -39,7 +39,7 @@ Each project is small, easy to run, and designed to learn programming concepts w
 #### Bane: If you step away from your computer, you will miss the notification completely.
 
 ### - **clear_your_confusion.py** → A helper script for clarifying concepts 📘:
-#### Boon: Chooses a random option for you whenever you are stucked
+#### Boon: Chooses a random option for you whenever you are stuck
 #### Bane: Doesn't knows that what is the mood of user.
 
 ### - **data.py** → Get your stats after exam 📚ℹ️📃:
@@ -47,7 +47,7 @@ Each project is small, easy to run, and designed to learn programming concepts w
 #### Bane: It only processes the specific data format it was designed for; entering text instead of numbers breaks it.
 
 ### - **auctions.py** → Play football auction against computer with results ⚽🥅:
-#### Boon: Solves the problem of needing an expensive gaming setup to experience a sports auction. It lets football fans build a fantasy squad against a calculating computer budget, addictive and interesting as an football fan.
+#### Boon: Solves the problem of needing an expensive gaming setup to experience a sports auction. It lets football fans build a fantasy squad against a calculating computer budget, addictive and interesting as a football fan.
 #### Bane: The text-based interface means you have to visualize the stadium and players yourself.
  
 ### - **guess_the_price.py** → Guess the price of everyday and costly items — closest guess wins! 🎮💰💵:
