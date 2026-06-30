@@ -21,63 +21,63 @@ Each project is small, easy to run, and designed to learn programming concepts w
 ### - **hand_cricket.py** → Play hand cricket against the computer 🏏:
 #### Boon: Solves the problem of boredom when you don't have a second player or an internet connection. It provides an instant, unpredictable computer opponent using random generation logic.
 #### Bane: The computer plays purely on random numbers, meaning it cannot learn your gaming patterns over time.
-
+---
 ### - **password_generator.py** → Generate random passwords 🔑:
 #### Boon: Solves a major cybersecurity issue by instantly creating strong, un-hackable passwords, removing human bias (like using names or birthdays).
 #### Bane: If the user doesn't copy it down immediately, the password is lost forever since it doesn't have a built-in database to save it, the password has a similar pattern throughout.
-
+---
 ### - **py_project_stone_paper_scissor.py** → Classic Stone-Paper-Scissor game ✊✋✌️:
 #### Boon: Serves as a digital decision-maker to settle friendly disputes or make unbiased choices, completely replacing the need for a physical coin toss.
 #### Bane: Word based
-
+---
 ### - **py_project_the_perfect_guess.py** → Guess the number challenge 🎯:
 #### Boon: Acts as a quick cognitive exercise that tracks your score (number of guesses), helping users practice logical narrowing-down strategies.
 #### Bane: The number range is fixed, so once you figure out the strategy, the difficulty level remains the same.
-
+---
 ### - **water_remainder.py** → Stay hydrated with water reminders 💧:
 #### Boon: Solves the problem of forgetting to drink water during long coding or gaming sessions by pushing active health reminders.
 #### Bane: If you step away from your computer, you will miss the notification completely.
-
+---
 ### - **clear_your_confusion.py** → A helper script for clarifying concepts 📘:
 #### Boon: Chooses a random option for you whenever you are stuck
 #### Bane: The code cant know that what is the mood of user.
-
+---
 ### - **data.py** → Get your stats after exam 📚ℹ️📃:
 #### Boon: Automatically calculates grade trends, totals, and averages from your exam scores, saving you from doing slow manual math.
 #### Bane: It only processes the specific data format it was designed for; entering text instead of numbers breaks it.
-
+---
 ### - **auctions.py** → Play football auction against computer with results ⚽🥅:
 #### Boon: Solves the problem of needing an expensive gaming setup to experience a sports auction. It lets football fans build a fantasy squad against a calculating computer budget, addictive and interesting as a football fan.
 #### Bane: The text-based interface means you have to visualize the stadium and players yourself.
- 
+ ---
 ### - **guess_the_price.py** → Guess the price of everyday and costly items — closest guess wins! 🎮💰💵:
 #### Boon: Turns real-world market values into an entertaining estimation game, raising awareness about the actual cost of items.
 #### Bane: Real-world item prices fluctuate over time, meaning the hardcoded prices in the game might eventually become outdated.
-
+---
 ### - **2_player_olympics.py** → Play games with your friend to win with more points 🎮⚡🪙:
 #### Boon: Bridges the social gap by letting two friends compete locally on the exact same keyboard, removing the need for two separate devices.
 #### Bane: Requires both players to squeeze around one screen and share tight controls.
-
+---
 ### - **cheater_chatbox.py** → Talk with ai with high efficiency 📢🤖⚡:
 #### Boon: Simulates fast, realistic conversations to help users test chatting efficiency or practice dialogue scenarios in a controlled environment.
 #### Bane: Cant work with pics.
-
+---
 ### - **talking_thing.py** → Play convo related games with different modes 🗣️💬⚡:
 #### Boon: Promotes quick thinking and vocabulary building by offering multiple interactive conversational game modes.
 #### Bane: User has to keep eyes always on microphone icon.
-
+---
 ### - **ai_clash.py** → Ask something and get answers from three different ai models 🤖📄📄:
 #### Boon: Solves "AI bias" by letting you compare answers from three separate models side-by-side, giving you a completely balanced perspective.
 #### Bane: Cant work with pics, alternatives like paid ai tools already available.
-
+---
 ### - **ultimate_city_game.py** → Choose different occupations and fight with monsters to collect the most number of coins and get an appreciation certificate after playing 🪙🏙️📄:
 #### Boon: A full-scale text RPG simulating financial management (occupations) and tactical risk (monster fights) that rewards you with an official digital certificate.
 #### Bane: Completely text based.
-
+---
 ### - **AdvanceStonePaperScissor_game.py** → Computer will learn from you past moves and will predict the next move. This concept uses Markov-chain style prediction to predict the next move 🎮✊📄✂️🧠
 #### Boon: Uses Markov-chain style prediction to predict the next move and keeps learning on every move.
 #### Bane: If user tries to randomise his/her moves by not following a particular pattern, the advantage of computer can disappear.
-
+---
 ### - **gdp_scraper.py** → Uses concept of scraping to extract data from wikipedia and shows it in terminal🌍💰📊📈📝 (API is available but its just for practise)
 #### Boon: Automates extraction of GDP data directly from Wikipedia, saving time and effort.
 #### Bane: Breaks easily if the table structure or source page changes.
